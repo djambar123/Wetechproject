@@ -1,8 +1,7 @@
 import time
 import allure
 from allure_commons.types import AttachmentType
-
-from Locators.LoginLocators import LoginLocators
+from Web.Locators.LoginLocators import LoginLocators
 from selenium.webdriver.common.by import By
 
 class LoginPage:

@@ -1,5 +1,5 @@
-from Pages.PostPage import PostPage
-from Base.SetUp import SetUp
+from Web.Pages.PostPage import PostPage
+from Web.Base.SetUp import SetUp
 import pytest
 
 

@@ -1,9 +1,5 @@
-import allure
-import pytest
-from allure_commons.types import AttachmentType
-from selenium.webdriver.common.by import By
-from Pages.RegisterPage import RegisterPage
-from Pages.LoginPage import LoginPage
+from Web.Pages.RegisterPage import RegisterPage
+from Web.Pages.LoginPage import LoginPage
 
 
 

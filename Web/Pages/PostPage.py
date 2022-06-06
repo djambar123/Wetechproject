@@ -1,7 +1,7 @@
 import allure
 from allure_commons.types import AttachmentType
 
-from Locators.PostLocators import PostLocators
+from Web.Locators.PostLocators import PostLocators
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By

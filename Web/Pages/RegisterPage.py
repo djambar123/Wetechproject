@@ -1,7 +1,7 @@
 import allure
 from allure_commons.types import AttachmentType
 
-from Locators.RegisterLocators import RegisterLocators
+from Web.Locators.RegisterLocators import RegisterLocators
 from selenium.webdriver.common.by import By
 
 class RegisterPage:

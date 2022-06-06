@@ -1,5 +1,5 @@
-from Pages.LoginPage import LoginPage
-from Base.SetUp import SetUp
+from Web.Pages.LoginPage import LoginPage
+from Web.Base.SetUp import SetUp
 import pytest
 
 

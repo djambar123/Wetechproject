@@ -1,8 +1,7 @@
 from selenium import webdriver
 import pytest
 from webdriver_manager.chrome import ChromeDriverManager
-from Pages.LoginPage import LoginPage
-from Utils.utils import login_user
+from Web.Pages.LoginPage import LoginPage
 
 
 class SetUp:
@@ -11,7 +10,7 @@ class SetUp:
     def setUp(self,details):
         self.driver = webdriver.Chrome(ChromeDriverManager().install())
         self.driver.maximize_window()
-        self.driver.get(("https://wetechsocial.herokuapp.com"))
+        self.driver.get("https://wetechsocial.herokuapp.com")
 
         if details == True:
             account = LoginPage(self.driver)

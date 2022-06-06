@@ -4,7 +4,7 @@ import allure
 from allure_commons.types import AttachmentType
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from Locators.UploadLocators import UploadLocators
+from Web.Locators.UploadLocators import UploadLocators
 import pyautogui
 from selenium.webdriver.common.by import By
 
@@ -50,7 +50,7 @@ class UpLoadPage:
 
     def validation(self, driver, locator, massage):
         driver = self.driver
-        valid = driver.find_element(By.XPATH, locator).get_attribute("textContent")
+        valid = driver.find_element(By.XPATH, locator).get_attribute("innerText")
 
 
         try:

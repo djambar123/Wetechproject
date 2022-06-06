@@ -1,6 +1,6 @@
-from Base.SetUp import SetUp
-from Pages.RegisterPage import RegisterPage
-from Locators.RegisterLocators import RegisterLocators
+from Web.Base.SetUp import SetUp
+from Web.Pages.RegisterPage import RegisterPage
+from Web.Locators.RegisterLocators import RegisterLocators
 import pytest
 
 
